@@ -1,7 +1,8 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-// TODO: Create an array of questions for user input
+
+// Create an array of questions for user input
 const questions = [
     {
         type: "input",
@@ -91,6 +92,7 @@ const licenseBadges = {
 
 }
 
+// function to generate a readme file from user input
 function generateReadmeFile(answer){
     console.log("answer from func: ", answer);
     const markdown = 
@@ -166,7 +168,7 @@ Email: [${answer.email}](mailto:${answer.email})
     return markdown;
 }
 
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile(fileName, data) {
 
     fs.writeFile(`./output/${fileName}`, data, (err) => {
@@ -177,7 +179,7 @@ function writeToFile(fileName, data) {
     })
 }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
     inquirer
         .prompt(questions)
