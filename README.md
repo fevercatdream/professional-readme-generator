@@ -49,12 +49,7 @@ Generate a README.md file from user input.
 
 ### Screencastify Demo
 ```
-https://
-```
-
-### Generated README.md file
-```
-![Generated README.md file](./Develop/output/)
+https://drive.google.com/file/d/1UDKSPejmFO-VzF35mzGWRNI05iYUuhS_/view?usp=sharing
 ```
 
 ## Credits
